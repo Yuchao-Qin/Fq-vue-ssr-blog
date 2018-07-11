@@ -33,10 +33,6 @@ export default {
 </script>
 
 <style lang="css">
-  #root {
-    min-width: 980px;
-    overflow: auto;
-  }
   .nav-header-root {
     width: 100%;
     min-height: 64px;
