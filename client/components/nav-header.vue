@@ -2,9 +2,9 @@
   <div class="nav-header-root">
     <Menu style="height: 100%;" mode="horizontal" active-name="1">
       <Row>
-        <Col span="5">
+        <Col :lg="4" :md="5" :sm="5" :xs="5">
           <h1 class="title">
-            <router-link to="/">Max Lasting</router-link>
+            <router-link to="/">Max Js</router-link>
           </h1>
         </Col>
         <div class="div-line"></div>
@@ -44,7 +44,8 @@ export default {
     line-height: 64px;
     text-align: center;
     cursor: pointer;
-    margin: 0;
+    margin: 0 auto;
+    padding: 0 20px;
   }
   .nav-header-root .div-line {
     float: left;

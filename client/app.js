@@ -6,11 +6,11 @@ import { sync } from 'vuex-router-sync'
 // import VueMeta from 'vue-meta'
 // import metaMixin from './utils/metaMixin.js'
 
-import iView from 'iview'
-import 'iview/dist/styles/iview.css'
+// import iView from 'iview'
+// import 'iview/dist/styles/iview.css'
 
 // Vue.use(VueMeta)
-Vue.use(iView)
+// Vue.use(iView)
 
 // Vue.mixin(metaMixin)
 

@@ -1,18 +1,20 @@
 <template lang="html">
   <div id="root">
-    <nav-header></nav-header>
-    <div class="layout">
-      <router-view></router-view>
-    </div>
+    <Row type="flex" justify="center">
+      <Col span="5">112</Col>
+      <Col span="10">1010101010</Col>
+    </Row>
   </div>
 </template>
 
 <script>
-import NavHeader from './components/nav-header.vue'
+import { Row, Col } from './deepLove/components/grid/index.js'
+import './deepLove/styles/grid.scss'
 
 export default {
   components: {
-    NavHeader
+    Row,
+    Col
   },
 }
 </script>
@@ -25,7 +27,7 @@ export default {
     overflow: auto;
   }
   #root {
-    min-width: 980px;
+    min-width: 1080px;
     min-height: 100%;
     overflow: auto;
     display: flex;
